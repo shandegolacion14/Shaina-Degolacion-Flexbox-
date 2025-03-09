@@ -1,0 +1,28 @@
+h1
+{
+    text-align: center;
+}
+
+#cities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.container{
+    display: flex;
+    width: 600px;
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    margin: 50px 30px;
+}
+
+.content h2{
+    padding-left: 10px;
+}
+
+.content p{
+    padding: 5px;
+    font-size: 17px;
+}
